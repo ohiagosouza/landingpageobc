@@ -1,0 +1,58 @@
+/* Import Colors */
+/* Import Pages */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.topLogo {
+  width: 240px;
+}
+
+body {
+  color: hsl(0deg, 0%, 100%);
+  background-image: url("../img/backgroundLp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container1 {
+  width: 470px;
+  height: auto;
+  background-color: rgba(19, 18, 18, 0.9450980392);
+}
+
+.paragraph {
+  margin: 10px 0px;
+}
+
+.button {
+  color: #2511ff;
+  border: 1px solid #2511ff;
+}
+.button:hover {
+  background-color: #2511ff;
+  border: 1px solid #2511ff;
+  color: hsl(0deg, 0%, 100%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0deg, 0%, 100%);
+}
+a:hover {
+  color: #2511ff;
+}
+
+@media (max-width: 470px) {
+  .topLogo {
+    width: 100%;
+  }
+  .container1 {
+    width: 100%;
+    height: auto;
+    background-color: rgba(19, 18, 18, 0.9450980392);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
